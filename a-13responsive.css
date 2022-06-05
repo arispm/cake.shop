@@ -1,0 +1,161 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .heading h1 {
+    font-size: 50px;
+  }
+
+  .products h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+  }
+
+  .product-list {
+    width: 100%;
+    height: 1200%;
+  }
+
+  .cake-item {
+    width: 30%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+  }
+
+  .about-us {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .custom-section {
+    height: 10%;
+  }
+
+  .strength-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+  }
+
+  .strengthness h2 {
+    font-size: 30px;
+  }
+  .strength-item h3 {
+    font-size: 20px;
+  }
+
+  .strength-item p {
+    font-size: 15px;
+  }
+}
+
+/* Untuk Hp */
+@media (max-width: 670px) {
+  .heading h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  span {
+    font-size: 70px;
+  }
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #41585e;
+    transition: top 1s ease 0s;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+  }
+
+  .products h2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0 10px 0;
+  }
+
+  .product-list {
+    width: 100%;
+    height: 1200%;
+  }
+
+  .cake-item {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  .custom-section {
+    height: 10%;
+  }
+
+  .about-us {
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-us h3 {
+    font-size: 25px;
+  }
+
+  .about-us p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .strengthness {
+    height: 700px;
+  }
+
+  .strength-bg {
+    height: 700px;
+  }
+  .strength-item {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+  }
+
+  .strengthness h2 {
+    font-size: 30px;
+  }
+  .strength-item h3 {
+    font-size: 20px;
+  }
+
+  .strength-item p {
+    font-size: 15px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .footer li {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
